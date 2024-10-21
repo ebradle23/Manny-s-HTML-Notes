@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Major+Mono+Display&display=swap"
+        rel="stylesheet">
+    <title>Manny's HTML Cheatsheet</title>
+</head>
+
+<body>
+    <header id="headersection">
+        <h1 id="titlemain">"Manny's HTML Cheatsheet"</h1>
+        <h2 id="titlesecond">HTML (Hyper-Text Markup Language)</h2>
+        <p id="titletext">HYML is a programming language that is made up of "elememts."
+            Each element usually contains an opening and closing "tag" that
+            determines the way an element's content behaves. This table will
+            list some common tags found in HTML.
+        </p>
+    </header>
+    <div id="tablesection">
+    <table id="maintable">
+        <thead scope="row">
+            <tr id="tablerow1">
+                <th>Tag Name:</th>
+                <th>Format:</th>
+                <th>Tag Description/Notes:</th>
+                <th>Example:</th>
+            </tr>
+        </thead scope="col">
+        <tbody>
+            <tr id="tablerow2">
+                <td>Paragraph</td>
+                <td>&lt;p&gt;</td>
+                <td>A paragraph tag allows you to add lines of text to your HTML document.</td>
+                <td>&lt;p&gt;Here's some text. This is what it looks like.&lt;/p&gt;</td>
+            </tr>
+            <tr id="tablerow3">
+                <td>Header</td>
+                <td>&lt;h1&gt;</td>
+                <td>A header tag adds special header text to your HTML document. h1 - h6 is formated largest to smallest.</td>
+                <td>&lt;h1&gt;Headers help organize your content on page.&lt;/h1&gt;</td>
+            </tr>
+            <tr id="tablerow4">
+                <td>Button</td>
+                <td>&lt;button&gt;</td>
+                <td>If you want a button on screen, you can use the button tags.</td>
+                <td>&lt;button&gt;Add some engaging text here!&lt;/button&gt;</td>
+            </tr>
+            <tr id="tablerow5">
+                <td>Image</td>
+                <td>&lt;img/&gt;</td>
+                <td>The image tag is used to add images to your HTML document. Note that the image tag doesn't have 
+                    closing tag. This is called a self-closing tag.</td>
+                <td>&lt;img src="image-location-link.jpg"/&gt;</td>
+            </tr>
+            <tr id="tablerow6">
+                <td>Unordered List</td>
+                <td>&lt;ul&gt;</td>
+                <td>You can make a bullet point list using this type of list tag. The list item tags 
+                    (li) define each item in your list.
+                </td>
+                <td>&lt;ul&gt; &lt;li&gt; List content... &lt;li/&gt; &lt;ul&gt;</td>
+            </tr>
+            <tr id="tablerow7">
+                <td>Ordered List</td>
+                <td>&lt;ol&gt;</td>
+                <td>You can make a numbered list using this type of list tag. The list item tags
+                    (li) define each item in your list as well.
+                </td>
+                <td>&lt;ol&gt; &lt;li&gt; List content... &lt;li/&gt; &lt;ol&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <footer>
+        <p>Constructed by <a href="https://discuss.codecademy.com/u/ebradle24/summary">ebradle24</a></p>
+    </footer>
+</body>
+
+</html>

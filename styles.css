@@ -1,0 +1,113 @@
+/* Formatting entire page body */
+
+body {
+    background-color: #fff1e2;
+    margin: 0px;
+}
+
+/* Formatting header div section */
+
+#headersection {
+    text-align: center;
+    font-family: dotgothic16;
+    margin: auto;
+    letter-spacing: 4px;
+}
+
+/* Formating each title section */
+
+#titlemain {
+    background-color: #b76e2d;
+    letter-spacing: 4px;
+    margin: auto;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+#titlesecond {
+    letter-spacing: 4px;
+    padding: 20px;
+    margin: auto;
+    text-decoration: underline;
+}
+
+#titletext {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+}
+
+/* Table formatting */
+
+table {
+    border: 5px solid #000;
+    background-color: #000;
+    margin: auto;
+    width: 90%;
+}
+
+/* Formatting for table section */
+
+#tablesection {
+    margin: 20px 20px 200px 20px;
+}
+
+/* Formatting just for the 2nd column cells */
+
+td:nth-child(2) {
+    font-family: monospace;
+    text-align: center;
+  }
+
+  /* Formatting for all table cells */
+
+td, th {
+    padding: 10px;
+    font-family: dotgothic16;
+    letter-spacing: 2px;
+}
+
+/* Formatting table header */
+
+th {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/* Table row coloring */
+
+#tablerow1 {
+    background-color: #71532f;
+    color: #fff;
+}
+
+#tablerow2, #tablerow4, #tablerow6 {
+    background-color: #d3af85;
+}
+
+#tablerow3, #tablerow5, #tablerow7 {
+    background-color: #b99770;
+}
+
+/* Formatting footer section */
+
+footer {
+    padding: 30px;
+    margin: auto;
+    background-color: #b76e2d;
+    text-align: left;
+    font-size: 20px;
+    font-family: dotgothic16;
+    text-decoration: underline 2px;
+}
+
+/* Link element color */
+
+a {
+    color: #472011;
+}
+
+a:hover {
+    color: #b72d2d;
+}
